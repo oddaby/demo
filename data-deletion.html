@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Deletion Request - Gava Tana</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #0a0f1a;
+            color: #e8e4da;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        h1 {
+            color: #c9a84c;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        .effective-date {
+            color: #6b6760;
+            font-size: 14px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid rgba(255,255,255,0.07);
+            padding-bottom: 20px;
+        }
+        .card {
+            background: rgba(21, 29, 46, 0.8);
+            border: 1px solid rgba(255,255,255,0.07);
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #c9a84c;
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+        p {
+            color: #9b9690;
+            margin-bottom: 15px;
+        }
+        ul, ol {
+            margin: 15px 0 15px 30px;
+            color: #9b9690;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .method-box {
+            background: rgba(26, 36, 56, 0.6);
+            border: 1px solid rgba(201,168,76,0.2);
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .method-box h3 {
+            color: #c9a84c;
+            margin-bottom: 10px;
+        }
+        .email-link {
+            background: #1a2438;
+            padding: 12px;
+            border-radius: 8px;
+            font-family: monospace;
+            font-size: 16px;
+            text-align: center;
+            margin: 15px 0;
+        }
+        .email-link a {
+            color: #c9a84c;
+            text-decoration: none;
+        }
+        .highlight {
+            background: rgba(45,212,160,0.1);
+            padding: 15px;
+            border-left: 3px solid #2dd4a0;
+            margin: 20px 0;
+        }
+        .footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255,255,255,0.07);
+            font-size: 12px;
+            color: #6b6760;
+            text-align: center;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #c9a84c;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        button {
+            background: linear-gradient(135deg, #c9a84c, #8a6a1f);
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            color: #0a0f1a;
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        button:hover {
+            opacity: 0.9;
+        }
+        .status-message {
+            margin-top: 15px;
+            padding: 10px;
+            border-radius: 8px;
+            display: none;
+        }
+        .status-success {
+            background: rgba(45,212,160,0.2);
+            border: 1px solid #2dd4a0;
+            color: #2dd4a0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Data Deletion Request</h1>
+        <div class="effective-date">In compliance with Kenya Data Protection Act 2019</div>
+
+        <div class="card">
+            <h2>Your Rights Under Kenyan Law</h2>
+            <p>The Kenya Data Protection Act 2019 gives you the right to request deletion of your personal data from our systems. If you believe we have collected your information from public Facebook content and you wish to have it removed, please follow one of the methods below.</p>
+        </div>
+
+        <h2>How to Request Data Deletion</h2>
+
+        <div class="method-box">
+            <h3>Method 1: Email Request (Recommended)</h3>
+            <p>Send an email to the address below with the subject line <strong>"Data Deletion Request"</strong>. Please include:</p>
+            <ul>
+                <li>Your full name as it appears on Facebook</li>
+                <li>Your Facebook profile URL or User ID (if known)</li>
+                <li>A brief statement that you request deletion of your data</li>
+            </ul>
+            <div class="email-link">
+                📧 <a href="mailto:nekshenjackson@gmail.com?subject=Data%20Deletion%20Request&body=Please%20delete%20my%20data%20from%20Gava%20Tana%20platform.%0A%0AMy%20Facebook%20name%3A%20%0AMy%20Facebook%20ID%20(if%20known)%3A%20%0A%0AThank%20you.">nekshenjackson@gmail.com</a>
+            </div>
+            <button onclick="window.location.href='mailto:nekshenjackson@gmail.com?subject=Data%20Deletion%20Request&body=Please%20delete%20my%20data%20from%20Gava%20Tana%20platform.%0A%0AMy%20Facebook%20name%3A%20%0AMy%20Facebook%20ID%20(if%20known)%3A%20%0A%0AThank%20you.'">📧 Send Email Request</button>
+        </div>
+
+        <div class="method-box">
+            <h3>Method 2: Web Form (Coming Soon)</h3>
+            <p>We are currently developing a secure web form for data deletion requests. In the meantime, please use the email method above.</p>
+        </div>
+
+        <div class="method-box">
+            <h3>Method 3: Facebook Data Deletion Callback URL</h3>
+            <p>For Meta Platform compliance, we have registered the following Data Deletion URL:</p>
+            <div class="email-link">
+                🔗 https://demo-one-zeta-92.vercel.app/data-deletion-callback
+            </div>
+            <p><small>This URL handles automated callbacks from Facebook when users request deletion through Facebook's settings.</small></p>
+        </div>
+
+        <div class="highlight">
+            <strong>What happens after you request deletion?</strong>
+            <ul style="margin-top: 10px;">
+                <li>We will verify your identity using the information you provide</li>
+                <li>We will locate any data associated with your Facebook profile</li>
+                <li>We will permanently delete your data from our systems</li>
+                <li>You will receive a confirmation email within 30 days</li>
+                <li>Your data will be removed from all backups within 90 days</li>
+            </ul>
+        </div>
+
+        <h2>What Data We Collect and Delete</h2>
+        <p>When you request deletion, we will remove:</p>
+        <ul>
+            <li>Your public Facebook display name and user ID</li>
+            <li>Any public comments you made that we collected</li>
+            <li>Any public posts you made that we collected</li>
+            <li>Your public location information</li>
+            <li>Any analysis or sentiment tags associated with your content</li>
+        </ul>
+        <p><strong>Note:</strong> We cannot delete content that originated on Facebook. That content remains on Facebook's servers subject to their policies. We only delete our copy of publicly available data.</p>
+
+        <h2>Data That Cannot Be Deleted Immediately</h2>
+        <p>In some cases, data may be retained for legal or operational reasons:</p>
+        <ul>
+            <li>Aggregated statistics that no longer identify individuals</li>
+            <li>Data required for legal compliance or dispute resolution</li>
+            <li>Backup copies (which will be deleted within 90 days)</li>
+        </ul>
+
+        <h2>Confirmation Timeline</h2>
+        <p>We process all deletion requests within <strong>30 days</strong> as required by Kenyan law. You will receive:</p>
+        <ol>
+            <li><strong>Acknowledgement Email:</strong> Within 48 hours confirming we received your request</li>
+            <li><strong>Completion Email:</strong> Within 30 days confirming your data has been deleted</li>
+        </ol>
+
+        <h2>Contact for Data Protection Issues</h2>
+        <p>
+            <strong>Data Protection Officer:</strong><br>
+            Email: nekshenjackson@gmail.com<br>
+            Phone: (For security reasons, phone number available upon email request)<br>
+            Address: Tana River County, Kenya
+        </p>
+
+        <p>If you are not satisfied with our response, you have the right to lodge a complaint with the Office of the Data Protection Commissioner (ODPC) of Kenya.</p>
+
+        <a href="index.html" class="back-link">← Back to Home</a>
+        <div class="footer">
+            <p>Gava Tana is not affiliated with or endorsed by Facebook or Meta Platforms, Inc.</p>
+            <p>© 2026 Gava Tana. All rights reserved. | Email: nekshenjackson@gmail.com</p>
+        </div>
+    </div>
+
+    <script>
+        // Simple form handling for future web form
+        function showStatus(message, isSuccess) {
+            const statusDiv = document.getElementById('status-message');
+            statusDiv.textContent = message;
+            statusDiv.className = 'status-message ' + (isSuccess ? 'status-success' : '');
+            statusDiv.style.display = 'block';
+            setTimeout(() => {
+                statusDiv.style.display = 'none';
+            }, 5000);
+        }
+    </script>
+</body>
+</html>
